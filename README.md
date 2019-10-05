@@ -1,6 +1,6 @@
-# New Leanote Android (Leamonax)
+# New Leanote Android (Leamonax) (shunf4)
 
-[![Build Status](https://travis-ci.org/leanote/leanote-android.svg?branch=master)](https://travis-ci.org/leanote/leanote-android?branch=master)
+[![Build Status](https://travis-ci.org/shunf4/leanote-android.svg?branch=master)](https://travis-ci.org/shunf4/leanote-android?branch=master)
 
 **It's still in developing.** Be careful when you using it and make sure you have an backup.
 
