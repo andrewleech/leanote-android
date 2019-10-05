@@ -21,7 +21,7 @@ env:
   - secure: oXLW0oxyngh34W/uCgHZSYNzHerQ79BSiKuBm6pY2BNi4VdY/Zss5rhCZCIifcRcYsfqy6jqhruRzXj8KZaikF+cvAR8qJ0CjiIq3hXRu8Cjjh2g8K0diB6lEFz/NPezG99tVVaGeuMoeh0yQavgiWxled2RzY24/Z+Jm9sQSHgVqTYR9pRRfP4/7nsjzA7nvlTa66XVW3J8Lky4qgO77abpRUvs0JNW1kTo/leWg8QdYdFk+ySb8TybnBmGXV25geHXiuIHEukqyuN9SBBfCohPBocZGyNCvXUY7tRBEDllCOAhdSzNACDR/8g3slczT1klnMFZGoEPXEiQS720WIRht5pZyY5vZDSZxZ2PRabdQq9PC6xjY23D7TSyGazwR5v+Ti+WVZZSxo0zqJRNjo4t+KoGkcDkal4ebfHQcloWkwaTV2djBHKJrsn00mRdCdIlbGohYPIF3kGdxo+kqB1NRoSuDS40SPfNMkuBzTeIHQDEof2a/t5jgsym64gBAzKiEpsYD6zRV4d0sRdgMLMjypxF4RJETVKR6YG7kTT4OeWGc1X1FHrJGyGZyVhhvn9h3/at+04TNNYiKyutDFnCvOWGPZ7qdWhRvHMizLwl24Fb1ehRn7Bk8FO/cmIdQiHvmfdWA7g54EaIcHCPWg1+worhDpsRsO7VanSR6uw=
 
 before_install:
-- openssl aes-256-cbc -K $encrypted_rivage_key -iv $encrypted_rivage_iv -in Rivage.jks.enc -out Rivage.jks -d
+- openssl aes-256-cbc -K $encrypted_c16a2c4437d7_key -iv $encrypted_c16a2c4437d7_iv -in Rivage.jks.enc -out Rivage.jks -d
 script:
 - "./gradlew assembleRelease"
 before_deploy:
